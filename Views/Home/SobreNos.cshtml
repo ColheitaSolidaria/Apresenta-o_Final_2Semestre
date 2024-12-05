@@ -1,0 +1,62 @@
+﻿@page
+@model ColheitaSolidaria.Views.Home.Index1Model
+
+<script src="~/js/home.js" asp-append-version="true" defer></script>
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+
+<!-- nav das seções da página -->
+<div id="n2">
+    <nav>
+        <ul>
+            <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="SobreNos">Sobre nós</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="Colaboradores">Colaboradores</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Como ajudar?</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="Contato">Contato</a></li>
+        </ul>
+    </nav>
+</div>
+<br>
+<br>
+<!-- header da seção sobre nós -->
+<div id="header-de-cada-secao">
+    <img src="~/img/coração.png" id="coracao">
+    <header id="texto-da-header">
+        Sobre nós
+    </header>
+</div>
+<br>
+<!-- primeiro textinho de começo sobre nós -->
+<p class="right p">
+    No Colheita Solidária, somos uma equipe dedicada<br> <a id="ancora-vermelha">a reduzir o desperdício de alimentos</a> e <A id="ancora-vermelha">combater a fome</A>.<br>
+    <br>
+    Fundado em 2024, nosso objetivo é criar uma ponte entre  agricultores<br> com alimentos excedentes e pessoas
+    necessitadas.<br>
+</p>
+ @* <img src="~/img/sacola.png" alt="Sacola com vários alimentos." id="sacola"> *@
+
+<p style="margin-top: 3%; font-size: 30px;">Acreditamos que, juntos, podemos construir uma<br> comunidade mais solidária e sustentável!</p>
+<!-- titulo -->
+<br>
+<h1 id="titulo-vermelho2">Nossa missão</h1>
+
+<!-- faixa vermelha com a cesta de tomates -->
+<h2 id="titulo-vermelho" style="font-size: 30px;">Reduzir o Desperdício</h2>
+<p class="degrade-right p2">Minimizar a perda de alimentos<br> por meio de <a href="doacao2.html">doações</a>.</p>
+<img src="~/img/tomatos.png" alt="Cesta de tomates." id="tomates">
+
+
+<!-- faixa verde com as mãos juntas com um coração -->
+<h2 id="titulo-vermelho" style="font-size: 30px;">Combater a Fome</h2>
+<p class="left degrade-left p3">Fornecer alimentos frescos e nutritivos<br> para quem mais precisa.</p>
+<img src="~/img/maos.png" alt="Mãos que simbolizam solidariedade." id="maos">
+
+<!-- faixa amarela com duas pessoas abraçadas -->
+<h2 id="titulo-vermelho3" style="font-size: 30px;">Fortalecer Comunidades</h2>
+<p class="right degrade-right1 p2"> Conectar doadores e recebedores, <br>promovendo a solidariedade.</p>
+<img src="~/img/doisamigos.png" alt="Dois amigos sem abraçando." id="doisamigos">
+<br>

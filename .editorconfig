@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# IDE0021: Usar o corpo do bloco para construtor
+csharp_style_expression_bodied_constructors = false
+
+# IDE0022: Usar o corpo do bloco para método
+csharp_style_expression_bodied_methods = false
+
+# IDE0022: Usar o corpo do bloco para método
+dotnet_diagnostic.IDE0022.severity = warning

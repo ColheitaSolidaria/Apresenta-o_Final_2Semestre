@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    Layout = "_Layout";
+}
+<link rel="stylesheet" href="~/css/cad1.css" asp-append-version="true" />
+
+<br>
+<h1 id="h1p">Você é um:</h1>
+<div id="a1">
+    <a asp-area="" asp-controller="Cadastro" asp-action="CadastroColaborador">
+        <button id="btn1">
+            Colaborador
+        </button>
+    </a>
+    <a asp-area="" asp-controller="Cadastro" asp-action="CadastroRecebedor">
+        <button id="btn2">
+            Receptor
+        </button>
+    </a>
+</div>
+<br>
+<br>

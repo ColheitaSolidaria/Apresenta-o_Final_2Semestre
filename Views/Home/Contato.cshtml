@@ -1,0 +1,99 @@
+﻿@page
+@model ColheitaSolidaria.Views.Home.ContatoModel
+
+<script src="~/js/home.js" asp-append-version="true" defer></script>
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+
+<!-- nav das seções da página -->
+<div id="n2">
+    <nav>
+        <ul>
+            <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="SobreNos">Sobre nós</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="Colaboradores">Colaboradores</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Como ajudar?</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="Contato">Contato</a></li>
+        </ul>
+    </nav>
+</div>
+<br>
+<!-- header da seção como ajudar? -->
+<div id="header-de-cada-secao">
+    <img src="~/img/coração.png" id="coracao">
+    <span id="texto-da-header">
+        Contato
+    </span>
+</div>
+<!-- resto da página explicando de forma mais direta como você pode ajudar; imagem da plantinha -->
+<br>
+<h1 id="titulo-vermelho">
+    Entre em contato conosco!
+</h1>
+
+<p>
+    Seja para sanar dúvidas ou fazer sugestões :)
+</p>
+<br>
+<div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Primeiro nome:</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Sobrenome:</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Assunto</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+    <a href="#">
+        <button id="botãocancel">Cancelar</button>
+    </a>
+    <a href="#">
+        <button id="botãoenviar" class="botaoo enviar" onclick="mostrarPopup()">Enviar</button>
+    </a>
+</div>
+<br>
+<br>
+<br>
+<h1 id="titulo-vermelho">Veja as nossas formas de contato:</h1>
+<br>
+<div class="container2">
+    <!-- bloco 1 - doe alimentos -->
+    <div class="caixa1">
+        <h2><a href="https://www.instagram.com/colheita.solidaria/" target="_blank" id="ancora-branca" style="margin-left: 24%;">Instagram</a></h2>
+        <img src="~/img/icon instagram.png" alt="Vários alimentos." style="margin-left: 39%;">
+        <p>
+            <strong>Colheita.solidaria</strong>
+        </p>
+    </div>
+    <!-- bloco 2 - receba alimentos -->
+    <div class="caixa2">
+        <h2 id="white"><a href="mailto:colheitasolidariafatec@gmail.com" id="ancora-branca" target="_blank">Email</a></h2>
+        <img src="~/img/icon email.png" alt="Pessoa que recebeu vários alimentos." style="margin-left: 43%;">
+        <p>
+
+        </p>
+        <p><strong>colheitasolidariafatec@gmail.com</strong> </p>
+    </div>
+    <!-- bloco 3 - conecte-se -->
+    <div class="caixa3">
+        <h2 id="white"><a href="https://wa.me/5516991275175?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20o%20projeto%20Colheita%20Solidária" target="_blank">WhatsApp</h2></a>
+        <img src="~/img/icone whats.png" alt="Plantinha nascendo de um coração." width="46px" style="margin-left: 39%;">
+        <p><strong>(16)2359-9851</strong></p>
+    </div>
+</div>
+<div>
+    <!-- -->
+    <h2 id="titulo-vermelho">A equipe da Colheita Solidária agradece o seu contato!!</h2>
+</div>
+<!-- forma 2 - imagem das mãos dadas -->
+<img src="~/img/maosdadas.png" alt="Mãos dadas simbolizando união." id="maosdadas">
+
+<br>
+<br>

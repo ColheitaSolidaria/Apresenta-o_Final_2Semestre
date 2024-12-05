@@ -1,0 +1,72 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    Layout = "_Layout";
+}
+<link rel="stylesheet" href="~/css/cadastro.css" asp-append-version="true" />
+<div id="fundo">
+    <section>
+        <a id="homem">
+            <img src="~/img/homenzinho.png">
+        </a>
+<form>
+    <div>
+        <br>
+        <label id="mar">
+            Faça seu cadastro:
+        </label>
+    </div>
+    <div>
+        <label>Nome completo: </label>
+        <input type="text" name="nome" id="txtarea" placeholder="Nome completo" required>
+
+        <br>
+        <label>CPF:</label>
+        <input type="text" name="CPF" id="CPF" placeholder="Ex: 123.456.789-00" required>
+
+        <br>
+        <label>Data de nascimento:</label>
+        <input type="date" name="nascimento" id="nascimento" required>
+
+        <br>
+        <label>Número de familiares:</label>
+        <input type="number" name="famil" id="famil" placeholder="Ex: 2" required>
+
+        <br>
+        <label>Email:</label>
+        <input type="email" name="email" id="email" placeholder="fulano.ciclano@gmail.com" required>
+
+        <br>
+        <label>Telefone:</label>
+        <input type="tel" name="telefone" id="tell" placeholder="16991237521" required>
+
+        <br>
+        <label>Senha:</label>
+        <input type="text" name="senha" id="senha" required>
+
+        <br>
+        <label>Confirme sua senha:</label>
+        <input type="text" name="senha" id="senha" required>
+
+        <br>
+        <a href="login.html">
+            <button class="botao2">Cadastre-se</button>
+        </a>
+    </div>
+
+    <div>
+        <label id="login2">Já possui um cadastro? <a asp-area="" asp-controller="Login" asp-action="Escolher">Faça login aqui</a></label>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</form>
+</section>
+</div>
+
+

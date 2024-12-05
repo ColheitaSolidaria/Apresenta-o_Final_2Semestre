@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Colheita Solidária</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ColheitaSolidaria.styles.css" asp-append-version="true" />
+</head>
+<body>
+
+    <!-- botões de login e cadastre-se -->
+    <div id="botao-login-e-cadastro">
+        <a asp-area="" asp-controller="Login" asp-action="Escolher">
+            <button class="botao">Entrar</button>
+        </a>
+        <a asp-area="" asp-controller="Cadastro" asp-action="EscolherCadastro">
+            <button class="botao">Cadastre-se</button>
+        </a>
+    </div>
+    <!-- logo do topo da página -->
+    <div id="logo-na-esquerda">
+        <a asp-area="" asp-controller="Home" asp-action="Index">><img src="~/img/logotp.png" width="300px" height="130px"></a>
+    </div>
+    
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- rodapé -->
+    <footer class="rod rod1" id="contato">
+        <!-- Ícone no canto -->
+        <img src="~/img/lgtpsolo.png" width="85px" id="imagem-rod" style="float: left; margin-right: 10px;">
+
+        <!-- Frase centralizada -->
+        <span id="texto-rod-frase">
+            Colheita Solidária: Juntos plantamos esperança, cultivamos solidariedade e colhemos um futuro melhor para todos.
+        </span>
+    </footer>
+    <!-- fim do rodapé -->
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

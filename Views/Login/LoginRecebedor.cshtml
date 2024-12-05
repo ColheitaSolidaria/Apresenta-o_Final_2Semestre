@@ -1,0 +1,70 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    Layout = "_Layout";
+}
+<script src="~/js/login.js" asp-append-version="true" defer></script>
+<link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+
+<body>
+
+    <h2>Login</h2>
+
+    <form method="post" action="/Perfil/Login">
+        <div>
+            <label for="username">CPF:</label>
+            <input type="text" id="username" name="username" required />
+        </div>
+        <div>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required />
+        </div>
+        <button type="submit">Entrar</button>
+    </form>
+
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <p style="color:red;">@ViewBag.ErrorMessage</p>
+    }
+
+    <div id="fundo1">
+        <section>
+            <div id="homem2">
+                <img src="img/receptor.png" width="290px" height="230px" style="margin-left: -8% ; margin-top: -24%;">
+            </div>
+            <form>
+                <div>
+                    <p id="mar2"> Faça login:</p>
+
+                    <label id="cpf">CPF:</label>
+                    <input type="text" name="CPF" id="CPF" placeholder="Ex: 123.456.789-00" required>
+
+                    <label id="SENHA2">Senha:</label>
+                    <input type="password" name="senha" id="senha2" required>
+
+                </div>
+            </form>
+
+            <a href="pedidos2.html">
+                <button class="botao2">Entrar</button>
+            </a>
+            <p id="senhas"> Esqueceu sua senha? <a href="#" id="forgot-password">Esqueci minha senha</a></p>
+            <p id="cadas">Não possui um cadastro?  <a asp-area="" asp-controller="Cadastro" asp-action="EscolherCadastro">>Cadastre-se aqui</a></p>
+        </section>
+    </div>
+
+    <!-- Modal para redefinição de senha -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-modal">&times;</span>
+            <h2>Redefinir Senha</h2>
+            <p>Digite seu e-mail:</p>
+            <input type="email" id="email" placeholder="seuemail@example.com">
+            <button id="send-email">Enviar Instruções</button>
+        </div>
+    </div>
+
+
+</body>

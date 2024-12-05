@@ -1,0 +1,85 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_Layout";
+}
+<script src="~/js/doacao2.js" asp-append-version="true" defer></script>
+<script src="~/js/excluirconta.js" asp-append-version="true" defer></script>
+<script src="~/js/editarconta.js" asp-append-version="true" defer></script>
+<link rel="stylesheet" href="~/css/doacao2.css" asp-append-version="true" />
+
+<body>
+    <div id="n3">
+        <a asp-area="" asp-controller="Home" asp-action="Index">
+            <img src="~/img/logotp.png" width="300px" height="130px">
+        </a>
+    </div>
+    <div class="conteiner perfil">
+        <!-- Imagem do receptor que abrirá o menu suspenso -->
+        <img src="~/img/receptor.png" id="menuReceptor" alt="Perfil" width="110px" height="90px">
+        <!-- Menu suspenso -->
+        <div id="dropdownMenu" class="dropdown-menu">
+            <a asp-area="" asp-controller="Forms" asp-action="FormDoacao2">Realizar doação</a>
+            <a href="#" class="btn-edit-profile" onclick="openModal()">Editar perfil</a>
+            <a href="#" id="excluirConta">Excluir conta</a>
+            <a href="home.html">Sair</a>
+        </div>
+    </div>
+
+    <div id="but2">
+        <a href="formdoacao.html">
+            <button id="btnmais">+</button>
+            <a id="re1">Realizar</a>
+            <a id="re2">doação</a>
+        </a>
+    </div>
+
+    <!-- Pop-up de confirmação -->
+    <div id="modal" class="modal">
+        <div class="modal-conteudo">
+            <h2>Confirmação</h2>
+            <p>Você tem certeza que deseja excluir sua conta?</p>
+            <button id="confirmar" class="btn-confirmar">Sim, excluir</button>
+            <button id="cancelar" class="btn-cancelar">Cancelar</button>
+        </div>
+    </div>
+
+    <!-- modal para editar perfil -->
+    <div id="editProfileModal" class="modal1">
+        <div class="modal-content1">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="editarperfil">Editar Perfil</h2>
+
+            <!-- Foto de Perfil -->
+            <div class="profile-picture" id="profile-picture">
+                <img id="profile-img" src="https://via.placeholder.com/150" alt="Foto de perfil">
+            </div>
+            <input type="file" id="profile-picture-input" class="file-input" accept="image/*" onchange="previewImage(event)">
+            <button class="btn-upload" onclick="document.getElementById('profile-picture-input').click();">Adicionar Foto</button>
+
+            <!-- Formulário de Edição -->
+            <form id="edit-profile-form">
+                <div class="form-group">
+                    <label for="address" id="endereco">Endereço</label>
+                    <input type="text" id="address" name="address" placeholder="Ex: Avenida Camaleão Bonapart">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="address">Email</label>
+                    <input type="text" id="address" name="address" placeholder="Ex: fulanociclano@gmail.com">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Ex: (16)994562166">
+                </div>
+                <button type="button" class="btn-save" onclick="saveProfile()">Salvar Alterações</button>
+            </form>
+        </div>
+    </div>
+
+    <h1 id="h1p">Minhas doações:</h1>
+    <br>
+    <h1 class="yellow center">Nenhuma doação feita.</h1>
+    </body>

@@ -1,0 +1,203 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ColheitaSolidaria
+build_property.RootNamespace = ColheitaSolidaria
+build_property.ProjectDir = C:\Users\Uso Exclusivo\Desktop\Faculdade\Projeto Interdisciplinar\Colheira Solidária - Copia\ColheitaSolidaria\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Uso Exclusivo\Desktop\Faculdade\Projeto Interdisciplinar\Colheira Solidária - Copia\ColheitaSolidaria
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/AdministradorModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvck1vZGVsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/AdministradorModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvck1vZGVsc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/AdministradorModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvck1vZGVsc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/AdministradorModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvck1vZGVsc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/AdministradorModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYWRvck1vZGVsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/AprovacaoModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXByb3ZhY2FvTW9kZWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/AprovacaoModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXByb3ZhY2FvTW9kZWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/AprovacaoModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXByb3ZhY2FvTW9kZWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/AprovacaoModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXByb3ZhY2FvTW9kZWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/AprovacaoModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXByb3ZhY2FvTW9kZWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Cadastro/CadastroColaborador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQ2FkYXN0cm9Db2xhYm9yYWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Cadastro/CadastroRecebedor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cQ2FkYXN0cm9SZWNlYmVkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Cadastro/EscolherCadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9cRXNjb2xoZXJDYWRhc3Ryby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/DoacaoModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hY2FvTW9kZWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/DoacaoModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hY2FvTW9kZWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/DoacaoModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hY2FvTW9kZWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/DoacaoModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hY2FvTW9kZWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/DoacaoModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hY2FvTW9kZWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/DoadorModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hZG9yTW9kZWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/DoadorModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hZG9yTW9kZWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/DoadorModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hZG9yTW9kZWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/DoadorModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hZG9yTW9kZWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/DoadorModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9hZG9yTW9kZWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Forms/FormDoacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXNcRm9ybURvYWNhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Forms/FormDoacao2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybXNcRm9ybURvYWNhbzIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Home/Colaboradores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb2xhYm9yYWRvcmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Home/Contato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Home/SobreNos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZU5vcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Login/Escolher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRXNjb2xoZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Login/LoginAdministrador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5BZG1pbmlzdHJhZG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Login/LoginColaborador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5Db2xhYm9yYWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Login/LoginRecebedor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5SZWNlYmVkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/RecebedorModels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWJlZG9yTW9kZWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/RecebedorModels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWJlZG9yTW9kZWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/RecebedorModels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWJlZG9yTW9kZWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/RecebedorModels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWJlZG9yTW9kZWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/RecebedorModels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjZWJlZG9yTW9kZWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Uso Exclusivo/Desktop/Faculdade/Projeto Interdisciplinar/Colheira Solidária - Copia/ColheitaSolidaria/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ti7oz576q4

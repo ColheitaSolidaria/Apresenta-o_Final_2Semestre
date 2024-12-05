@@ -1,0 +1,54 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    Layout = "_Layout";
+}
+<script src="~/js/login.js" asp-append-version="true" defer></script>
+<link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+
+
+<div id="fundo2">
+    <section id="section">
+        <a id="homem">
+            <img src="~/img/homenzinho.png" style="margin-left: -8%;">
+        </a>
+
+        <div>
+            <p id="mar"> Faça login:</p>
+        </div>
+        <form>
+            <div>
+                <label id="cpf">CPF:</label>
+                <input type="text" name="CPF" id="CPF" placeholder="Ex: 123.456.789-00" required>
+            </div>
+
+            <div>
+                <label id="SENHA">Senha:</label>
+                <input type="password" name="senha" id="senha" required>
+            </div>
+        </form>
+
+        <a asp-area="" asp-controller="Forms" asp-action="FormDoacao">
+            <button class="botao">Entrar</button>
+        </a>
+        <br>
+        <p id="senhas"> Esqueceu sua senha? <a href="#" id="forgot-password">Esqueci minha senha</a></p>
+        <div>
+            <p id="cadas">Não possui um cadastro? <a asp-area="" asp-action="EscolherCadastro" asp-controller="Cadastro">Cadastre-se aqui</a></p>
+        </div>
+    </section>
+</div>
+
+
+<!-- Modal para redefinição de senha -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="close-modal">&times;</span>
+        <h2>Redefinir Senha</h2>
+        <p>Digite seu e-mail:</p>
+        <input type="email" id="email" placeholder="seuemail@example.com">
+        <button id="send-email">Enviar Instruções</button>
+    </div>
+</div>

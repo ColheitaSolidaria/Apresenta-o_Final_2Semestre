@@ -1,0 +1,104 @@
+﻿
+
+<script src="~/js/home.js" asp-append-version="true" defer></script>
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+
+<!-- nav das seções da página -->
+<div id="n2">
+    <nav>
+        <ul>
+            <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="SobreNos">Sobre nós</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="Colaboradores">Colaboradores</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Como ajudar?</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="Contato">Contato</a></li>
+        </ul>
+    </nav>
+</div>
+<br>
+<!-- faixa de bem-vindo -->
+<h1 id="bem-vindo-da-home">
+    Bem-vindo ao Colheita Solidária.
+</h1>
+<br >
+<!-- CARROSSEL -->
+<div class="slider slider1">
+    <div class="slides">
+        <!-- botões circulares do carrossel, abaixo -->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!-- cada slide e suas imagens -->
+        <div class="slide first">
+            <img src="img/img5.jpg">
+        </div>
+        <div class="slide">
+            <img src="img/img2.jpg">
+        </div>
+        <div class="slide">
+            <img src="img/img3.jpg">
+        </div>
+        <div class="slide">
+            <img src="img/img4.jpg">
+        </div>
+        <!-- botões circulares do carrossel que navegam automaticamente após 5 segundos -->
+        <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+        </div>
+    </div>
+    <!-- navegação manual pelos botões do carrossel -->
+    
+</div>
+<!-- fim do carrossel -->
+
+
+<div class="degrade-right2">
+    <p class="right">
+        No Colheita Solidária, acreditamos que <br>todos merecem acesso a alimentos frescos e
+        nutritivos.
+    </p>
+    <p class="right">
+        Nossa missão é conectar agricultores com excedentes<br> de produção a pessoas e famílias
+        <br>que necessitam, reduzindo o
+        desperdício de alimentos<br> e ajudando a combater a fome.
+    </p>
+    <p class="right"> Junte-se a nós nesta causa e <br>faça a diferença na vida de alguém hoje mesmo!</p>
+    <!-- imagem da agricultora a esquerda -->
+    <img src="img/agricultoraicon.png" alt="Agricultora"
+         style="margin-right: 80%; margin-top: -32%; margin-bottom: 5%; width: 280px;">
+</div>
+<!-- fim do primeiro texto -->
+<!-- parte que contém os grids do final em linha -->
+<h1 id="titulo-vermelho">Como Funciona?</h1>
+  <div class="container">
+      <!-- bloco 1 - doe alimentos -->
+      <div class="item1">
+          <h2 id="white"><a href="doacao2.html" id="ancora-branca">Doe alimentos</a></h2>
+        <img src="~/img/alimentos2.png" alt="Vários alimentos." style="margin-left:25%;">
+          <p>
+              Agricultores cadastrados podem listar<br> os alimentos disponíveis para <a href="doacao2.html"
+                                                                                         id="ancora-vermelha">doação</a>.
+          </p>
+      </div>
+      <!-- bloco 2 - receba alimentos -->
+      <div class="item2">
+          <h2 id="white"><a href="pedidos2.html" id="ancora-branca">Receba alimentos</a></h2>
+        <img src="img/receba.png" alt="Pessoa que recebeu vários alimentos." style="margin-left:22%;">
+          <p>Pessoas carentes se cadastram <br>para <a href="pedidos2.html" id="ancora-vermelha">receber</a> alimentos doados.</p>
+      </div>
+      <!-- bloco 3 - conecte-se -->
+      <div class="item3">
+          <h2 id="white"><a href="contato.html">Conecte-se</a></h2>
+        <img src="img/coracao-plantinha.png" alt="Plantinha nascendo de um coração." width="90px" style="margin-left: 40%;">
+          <p>Nossa plataforma facilita a conexão <br>entre doadores e recebedores, garantindo<br> que os alimentos cheguem a <br>quem maisprecisa.</p>
+      </div>
+  </div>
+  

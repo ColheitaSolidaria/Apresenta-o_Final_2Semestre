@@ -1,0 +1,70 @@
+﻿@page
+@model ColheitaSolidaria.Views.Home.Index1Model
+
+<script src="~/js/home.js" asp-append-version="true" defer></script>
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+
+<!-- nav das seções da página -->
+<div id="n2">
+    <nav>
+        <ul>
+            <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="SobreNos">Sobre nós</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="Colaboradores">Colaboradores</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Como ajudar?</a></li>
+            <span>|</span>
+            <li><a asp-area="" asp-controller="Home" asp-action="Contato">Contato</a></li>
+        </ul>
+    </nav>
+</div>
+<br>
+<!-- header da seção colaboradores -->
+<div id="header-de-cada-secao">
+    <img src="~/img/coração.png" id="coracao">
+    <span id="texto-da-header">
+        Colaboradores
+    </span>
+</div>
+<br>
+<!-- primeiro textinho antes de mostrar os colaboradores -->
+@* <img src="~/img/icon.png" alt="Plantinha." style="margin-bottom: -15%; margin-left: 10%;" id="planta2"> *@
+<p>Nosso trabalho não seria possível sem a <br>dedicação e o apoio dos nossos colaboradores. </p>
+<p>Agricultores desempenham um papel crucial em nossa missão. <br>Conheça alguns dos nossos colaboradores e <br>veja como eles estão ajudando a transformar vidas!</p>
+@* <img src="~/img/icon.png" alt="Plantinha." style="margin-left: 80%; margin-top: -25%; margin-bottom: 3%;" id="planta2"> *@
+<br>
+<br>
+<!-- container com os colaboradores -->
+<div class="cont">
+
+    <!-- colaborador 1 -->
+    <div class="item4">
+        <img src="~/img/Foto colaboradora.png" alt="Colaboradora" width="270px"
+             id="marcia">
+        <h2 class="red">Agricultora Márcia</h2>
+        <p class="ladin">
+            Márcia Gonzales ajudou doando<br> muitos alimentos de sua própria lavoura!<br> Alimentos como: Arroz, milho e feijão.
+        </p>
+    </div>
+    <br>
+    <!-- colaborador 2 -->
+    <div class="item5">
+        <img src="~/img/foto colaborador.png" alt="Colaborador" width="270px" id="roberto">
+        <h2 class="red2">Agricultor Roberto</h2>
+        <p class="ladin2" style="margin-top: 4%;">
+            Roberto Rodriguez ajudou doando verduras da sua horta! <br>Como: Alface, tomates e pimentões
+        </p>
+    </div>
+    <br>
+    <!-- colaborador 3 -->
+    <div class="item6">
+        <img src="~/img/foto colaborador.png" alt="Colaborador" width="270px" dth="270px" id="carlos">
+        <h2 class="red3">Fazendeiro Carlos</h2>
+        <p class="ladin3" style="padding-top: -10%;">
+            Carlos Silva contribuiu generosamente<br> doando muitos alimentos de sua própria fazenda!<br> Alimentos como: batata, cenoura e tomate.
+        </p>
+    </div>
+</div>
+<br>

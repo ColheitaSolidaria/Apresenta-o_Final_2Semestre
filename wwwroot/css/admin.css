@@ -1,0 +1,291 @@
+/* elemento body */
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #e8cf9c;
+}
+/* logotiopo no topo da página */
+#logotipo{
+    position: absolute;
+    margin: 0%;
+    justify-content: left;
+}
+/* englobou todas as divs sem id ou classe */
+div{
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+/* botão de pedidos */
+#ancora-pedidos{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    background-color: brown;
+    border: 1px solid brown;
+    border-radius: 30px;
+    text-decoration: none; 
+    padding: 80px;
+    margin-left: 8%;
+    margin-top: -3%;
+    position: absolute;
+}
+/* botão de doações */
+#ancora-doacoes{
+    position: absolute;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    background-color: brown;
+    border: 1px solid brown;
+    border-radius: 30px;
+    text-decoration: none; 
+    padding: 80px;
+    margin-left: 30%; 
+    margin-top: -4.3%;
+}
+
+#menuReceptor{
+    position: absolute;
+    margin-left: 72.1%;
+    margin-top: -18.75%;
+}
+
+/*menu do usuario*/
+.dropdown-menu {
+    display: none; /* Mantém oculto até ser clicado */
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Certifica que o menu apareça acima de outros elementos */
+    border-radius: 5px;
+    margin-top: -14%;
+    margin-left: 67.5%;
+}
+
+.dropdown-menu a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #4f4f4f;
+}
+
+/* EXCLUIR CONTA */
+.container { 
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.btn-excluir { /*botão excluir conta*/
+    background-color: #a50000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-excluir:hover {
+    background-color: #a50000;
+}
+
+/* Estilo para o modal */
+.modal {
+    display: none; /* Ocultar o modal por padrão */
+    position: fixed; /* Ficar em posição fixa */
+    z-index: 1; /* Ficar acima de outros elementos */
+    margin-top: -20%;
+    margin-left: -20%;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    overflow: auto; /* Adicionar rolagem se necessário */
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência */
+    padding-top: 0px /* Espaço acima do modal */
+}
+
+/* Estilo do conteúdo do modal */
+.modal-conteudo {
+    background-color: #fefefe;
+    margin: 5% auto; /* Centralizar o modal */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 20px; /* Bordas arredondadas */
+    width: 300px; /* Largura do modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para o modal */
+    padding-bottom: 3%;
+    height: 22%;
+    margin-top: 15%;
+    margin-left: 40%;
+}
+
+/* Botão confirmar e cancelar */
+.btn-confirmar, .btn-cancelar {
+    background-color: #a50000; /* Cor de fundo */
+    color: white; /* Texto branco */
+    padding: 8px 15px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 30px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro */
+    font-size: 16px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Efeito de transição */
+    margin: 10px 5px; /* Margens laterais */
+}
+
+/* Efeito ao passar o mouse sobre os botões */
+.btn-confirmar:hover, .btn-cancelar:hover {
+    background-color: #641212b7; /* Cor de fundo ao passar o mouse */
+}
+
+/*EDITAR CONTA*/
+/* Botão para abrir o modal */
+.btn-edit-profile {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-edit-profile:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos do modal */
+.modal1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    margin-left: -20%;
+    margin-top: -20%;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content1 {
+    background-color: #fff;
+    margin-top: 6.4%;
+    margin-left: 38.1%;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 68%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #ddd;
+    margin-left: 1%;
+    margin-top: auto;
+    margin-right: 15px;
+}
+
+#editarperfil{
+    margin-left: 4.5%;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.file-input {
+    display: none;
+}
+
+.btn-upload {
+    background-color: #db981a;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    transition: background-color 0.3s;
+    margin-top: 9.05%;
+    margin-bottom: 2%;
+    margin-left: -0.2%;
+}
+
+.btn-upload:hover {
+    background-color: #cf8c0eef;
+}
+
+.form-group {
+    margin-bottom: 1px;
+    margin-left: -42%;
+    text-align: left;
+    margin-top: 3%;
+}
+
+.form-group label {
+    display: block;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"] 
+{
+    width: 196.5%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: -21%;
+    margin-top: -0.75%;
+}
+#endereco{
+    margin-top: 8%
+}
+
+
+.btn-save {
+    background-color: #a50000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-save:hover {
+    background-color: #850505;
+}
+
+

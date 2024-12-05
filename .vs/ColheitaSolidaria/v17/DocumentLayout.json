@@ -1,0 +1,552 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\controllers\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:controllers\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\controllers\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:controllers\\cadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\data\\colheitasolidariacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:data\\colheitasolidariacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\models\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:models\\perfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\views\\login\\loginrecebedor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:views\\login\\loginrecebedor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\migrations\\colheitasolidariacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:migrations\\colheitasolidariacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\models\\recebedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:models\\recebedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\views\\login\\loginadministrador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:views\\login\\loginadministrador.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\wwwroot\\css\\login1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:wwwroot\\css\\login1.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\controllers\\recebedormodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:controllers\\recebedormodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\views\\aprovacaomodels\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:views\\aprovacaomodels\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\controllers\\doadormodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:controllers\\doadormodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\controllers\\doacaomodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:controllers\\doacaomodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\controllers\\aprovacaomodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:controllers\\aprovacaomodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\controllers\\administradormodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:controllers\\administradormodelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\views\\login\\escolher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:views\\login\\escolher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\views\\recebedormodels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:views\\recebedormodels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\views\\doadormodels\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:views\\doadormodels\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\views\\doacaomodels\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:views\\doacaomodels\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\views\\doacaomodels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:views\\doacaomodels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\views\\doacaomodels\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:views\\doacaomodels\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\views\\doacaomodels\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:views\\doacaomodels\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\views\\aprovacaomodels\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:views\\aprovacaomodels\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\views\\aprovacaomodels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:views\\aprovacaomodels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\views\\aprovacaomodels\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:views\\aprovacaomodels\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\views\\aprovacaomodels\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:views\\aprovacaomodels\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\models\\aprovacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:models\\aprovacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\models\\doacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:models\\doacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|c:\\users\\uso exclusivo\\desktop\\faculdade\\projeto interdisciplinar\\colheira solid\u00E1ria - copia\\colheitasolidaria\\models\\doador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3EA316-A6BF-47F3-AF4A-C10FE9C40339}|ColheitaSolidaria.csproj|solutionrelative:models\\doador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cadastro.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\Cadastro.cs",
+              "RelativeDocumentMoniker": "Controllers\\Cadastro.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\Cadastro.cs",
+              "RelativeToolTip": "Controllers\\Cadastro.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowBsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T21:53:26.993Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ColheitaSolidariaContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Migrations\\ColheitaSolidariaContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ColheitaSolidariaContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Migrations\\ColheitaSolidariaContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ColheitaSolidariaContextModelSnapshot.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T04:32:43.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:25:19.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ColheitaSolidariaContext.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Data\\ColheitaSolidariaContext.cs",
+              "RelativeDocumentMoniker": "Data\\ColheitaSolidariaContext.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Data\\ColheitaSolidariaContext.cs",
+              "RelativeToolTip": "Data\\ColheitaSolidariaContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:22:59.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:01:36.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\Login.cs",
+              "RelativeDocumentMoniker": "Controllers\\Login.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\Login.cs",
+              "RelativeToolTip": "Controllers\\Login.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwBsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:14:01.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Perfil.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Models\\Perfil.cs",
+              "RelativeDocumentMoniker": "Models\\Perfil.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Models\\Perfil.cs",
+              "RelativeToolTip": "Models\\Perfil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T21:08:53.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-05T01:45:08.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginRecebedor.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\Login\\LoginRecebedor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\LoginRecebedor.cshtml",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\Login\\LoginRecebedor.cshtml",
+              "RelativeToolTip": "Views\\Login\\LoginRecebedor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T01:13:57.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Recebedor.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Models\\Recebedor.cs",
+              "RelativeDocumentMoniker": "Models\\Recebedor.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Models\\Recebedor.cs",
+              "RelativeToolTip": "Models\\Recebedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T16:58:38.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginAdministrador.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\Login\\LoginAdministrador.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\LoginAdministrador.cshtml",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\Login\\LoginAdministrador.cshtml",
+              "RelativeToolTip": "Views\\Login\\LoginAdministrador.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T01:06:12.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "login1.css",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\wwwroot\\css\\login1.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\login1.css",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\wwwroot\\css\\login1.css",
+              "RelativeToolTip": "wwwroot\\css\\login1.css",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAWwK4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-30T20:33:37.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RecebedorModelsController.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\RecebedorModelsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecebedorModelsController.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\RecebedorModelsController.cs",
+              "RelativeToolTip": "Controllers\\RecebedorModelsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T16:58:33.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\AprovacaoModels\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\AprovacaoModels\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\AprovacaoModels\\Edit.cshtml",
+              "RelativeToolTip": "Views\\AprovacaoModels\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:54:45.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DoacaoModelsController.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\DoacaoModelsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoacaoModelsController.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\DoacaoModelsController.cs",
+              "RelativeToolTip": "Controllers\\DoacaoModelsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowFoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T21:47:17.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DoadorModelsController.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\DoadorModelsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoadorModelsController.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\DoadorModelsController.cs",
+              "RelativeToolTip": "Controllers\\DoadorModelsController.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAmwFgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T21:53:38.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdministradorModelsController.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\AdministradorModelsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdministradorModelsController.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\AdministradorModelsController.cs",
+              "RelativeToolTip": "Controllers\\AdministradorModelsController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T21:53:07.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AprovacaoModelsController.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\AprovacaoModelsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AprovacaoModelsController.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Controllers\\AprovacaoModelsController.cs",
+              "RelativeToolTip": "Controllers\\AprovacaoModelsController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAQwJkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T21:45:48.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\RecebedorModels\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\RecebedorModels\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\RecebedorModels\\Index.cshtml",
+              "RelativeToolTip": "Views\\RecebedorModels\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:38:16.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Escolher.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\Login\\Escolher.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Escolher.cshtml",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\Login\\Escolher.cshtml",
+              "RelativeToolTip": "Views\\Login\\Escolher.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T21:14:28.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\DoacaoModels\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\DoacaoModels\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\DoacaoModels\\Index.cshtml",
+              "RelativeToolTip": "Views\\DoacaoModels\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:38:45.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\DoacaoModels\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\DoacaoModels\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\DoacaoModels\\Details.cshtml",
+              "RelativeToolTip": "Views\\DoacaoModels\\Details.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowC8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:07:46.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\DoadorModels\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\DoadorModels\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\DoadorModels\\Edit.cshtml",
+              "RelativeToolTip": "Views\\DoadorModels\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:15:59.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\DoacaoModels\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\DoacaoModels\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\DoacaoModels\\Delete.cshtml",
+              "RelativeToolTip": "Views\\DoacaoModels\\Delete.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:34:24.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\AprovacaoModels\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\AprovacaoModels\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\AprovacaoModels\\Create.cshtml",
+              "RelativeToolTip": "Views\\AprovacaoModels\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:31:32.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\DoacaoModels\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\DoacaoModels\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\DoacaoModels\\Edit.cshtml",
+              "RelativeToolTip": "Views\\DoacaoModels\\Edit.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAASwA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:03:29.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\AprovacaoModels\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AprovacaoModels\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\AprovacaoModels\\Index.cshtml",
+              "RelativeToolTip": "Views\\AprovacaoModels\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:32:23.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\AprovacaoModels\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\AprovacaoModels\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\AprovacaoModels\\Delete.cshtml",
+              "RelativeToolTip": "Views\\AprovacaoModels\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:30:47.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\AprovacaoModels\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\AprovacaoModels\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Views\\AprovacaoModels\\Details.cshtml",
+              "RelativeToolTip": "Views\\AprovacaoModels\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T21:29:35.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Doador.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Models\\Doador.cs",
+              "RelativeDocumentMoniker": "Models\\Doador.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Models\\Doador.cs",
+              "RelativeToolTip": "Models\\Doador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T21:08:48.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Administrador.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Models\\Administrador.cs",
+              "RelativeDocumentMoniker": "Models\\Administrador.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Models\\Administrador.cs",
+              "RelativeToolTip": "Models\\Administrador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:13:14.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Doacao.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Models\\Doacao.cs",
+              "RelativeDocumentMoniker": "Models\\Doacao.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Models\\Doacao.cs",
+              "RelativeToolTip": "Models\\Doacao.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T16:45:07.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Aprovacao.cs",
+              "DocumentMoniker": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Models\\Aprovacao.cs",
+              "RelativeDocumentMoniker": "Models\\Aprovacao.cs",
+              "ToolTip": "C:\\Users\\Uso Exclusivo\\Desktop\\Faculdade\\Projeto Interdisciplinar\\Colheira Solid\u00E1ria - Copia\\ColheitaSolidaria\\Models\\Aprovacao.cs",
+              "RelativeToolTip": "Models\\Aprovacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T17:08:48.955Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

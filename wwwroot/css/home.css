@@ -1,0 +1,1650 @@
+/* media desktop */
+@media only screen and (min-width: 992px) and (max-width: 1800px) {
+
+    /* elemento body */
+    body {
+        background-color: #e8cf9c;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    /* nav onde tem as seçoes do site */
+    nav {
+        background-color: #a42525e6;
+        margin: 0px;
+        padding: 30px;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    /* cada seção do site */
+    li {
+        display: inline;
+        padding: 17px;
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+
+    /* a lista de seções */
+    ul {
+        margin-left: 15px;
+    }
+
+    /* a divisória que temos entre as seções - "|" */
+    span {
+        color: #f5e2bf;
+    }
+
+    /* ancoras/textos das seções do site */
+    a {
+        color: #f5e2bf;
+        text-decoration: none;
+    }
+
+    /* ancoras/textos das seções do site quando foram visitadas*/
+    a:visited {
+        color: #f5e2bf;
+        text-decoration: none;
+    }
+
+    /* ancoras/textos das seções do site quando vc permanece com o mouse clicado nela */
+    a:active {
+        color: #514735;
+        text-decoration: none;
+    }
+
+    /* ancoras/textos das seções do site quando vc permanece com o mouse clicado nela */
+    li:hover {
+        font-weight: bold;
+        color: #514735;
+    }
+
+    /* ancoras/textos das seções do site quando vc permanece com o mouse acima dela */
+    ul li:hover {
+        border: 2px solid #5d0101;
+        background-color: #a50000;
+        border-radius: 15px;
+    }
+
+    /* botão do login e cadastre-se das páginas iniciais */
+    #botao-login-e-cadastro {
+        float: right;
+        padding: 60px;
+    }
+
+    /* classe que faz o botão ter a animação. o transition é o tempo de transiçao de cada coisa, como a cor da letra, fundo e o tempo que leva pra essa transição acontecer. */
+    .botao {
+        border: solid 2px #000000;
+        border-radius: 20px;
+        color: black;
+        background-color: #e3daa7;
+        font-size: 30px;
+        padding-right: 10px;
+        margin-right: 20px;
+        transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    }
+
+
+    /* classe pra quando estivermos com o mouse acima do botão. nesse transform, o scale representa o tamanho que ele vai aumentar quando ativo. */
+    .botao:hover {
+        background-color: #aa0000bd;
+        color: #f5e2bf;
+        transform: scale(1.1);
+        border: 0px solid black
+    }
+    #botao-login-e-cadastro-mobile {
+        float: right;
+        padding: 60px;
+        display: none;
+    }
+    /* faixa do ínicio de cada seção com o título dela. ex: na seção colaboradores, abaixo tem uma faixa com a palavra "colaboradores". */
+    #header-de-cada-secao {
+        background-color: #a42525e6;
+        padding: 20px;
+        border-radius: 10px;
+        border: 4px hidden #CA3838;
+        font-size: 40px;
+        color: #ffffff;
+
+    }
+
+    /* texto das faixas de cada seção */
+    #texto-da-header {
+        padding-left: 65px;
+        padding-bottom: 10px;
+        color: whitesmoke;
+    }
+
+    /* altura e padding da header */
+    header {
+        height: 40px;
+        padding-left: 20px;
+    }
+
+    /* tamanho e alinhamento de qualquer "p" sem um id ou classe */
+    p {
+        font-size: 27px;
+        text-align: center;
+
+    }
+
+    /* faixa de "bem-vindo" da home */
+    #bem-vindo-da-home {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: #6B392A;
+        background-color: #f5e2bf;
+        border: 0px solid #5d0101;
+        padding: 10px;
+
+    }
+
+    /* logo no topo da página, á esquerda */
+    #logo-na-esquerda {
+        margin: 0%;
+        justify-content: left;
+    }
+    #logo-mobile{
+        margin: 0%;
+        justify-content: left;
+        margin-bottom: -5%;
+        display: none;
+    }
+    /* coração que aparece nas faixas das seções */
+    #coracao {
+        position: absolute;
+        padding-left: 50;
+    }
+
+    /* classe do rodapé */
+    .rod {
+        background-color: #f6c973;
+        position: absolute;
+        height: 15vh;
+        width: 100%;
+    }
+
+    /* titulo vermelho em alguns lugares do site */
+    #titulo-vermelho {
+        text-align: center;
+        color: #5d0101;
+    }
+    #titulo-vermelho2 {
+        text-align: center;
+        color: #5d0101;
+        font-size: 35px;
+    }
+    #titulo-vermelho3 {
+        text-align: center;
+        color: #5d0101;
+        padding-bottom: -20%;
+    }
+
+
+    /* ancora da cor branca, localizada bos blocos da home.html */
+    #ancora-branca {
+        color: whitesmoke;
+    }
+
+    /* ancora da cor vermelha, localizada bos blocos da home.html */
+    #ancora-vermelha {
+        color: #a50000;
+    }
+
+    /* texto do rodapé com o instagram; @colheita.solidaria */
+    #texto-rod-insta {
+        color: #000000;
+        position: absolute;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+
+    /* texto no rodapé com o email; colheitasolidariafatec@gmail.com */
+    #texto-rod-email {
+        color: #000000;
+        position: absolute;
+        margin-left: 40%;
+        margin-top: 4%;
+    }
+
+    /* texto no rodapé com o whatsapp; (16) 92359-9851 */
+    #texto-rod-whats {
+        color: #000000;
+        position: absolute;
+        margin-left: 65%;
+        margin-top: 3%;
+    }
+
+    /* imagem do rodapé; ícones das redes sociais; */
+    #imagem-rod {
+        padding-top: 0.5%;
+    }
+
+    #texto-rod-frase{
+        display: block; 
+        text-align: center; 
+        font-size: 22px; 
+        margin-top: 45px; 
+        color: black;
+    }
+
+    /* id colocado em alguns textos pra alinhar ao centro; dois id's em "ajudar.html" */
+    #center {
+        text-align: center;
+    }
+
+    /* classe pra alinhar o texto pra esquerda; maioria encontrado na home e sobre nós */
+    .left {
+        text-align: left;
+    }
+
+    /* classe pra alinhar o texto pra esquerda; maioria encontrado na home e sobre nós */
+    .right {
+        text-align: right;
+        margin-right: 8%;
+        margin-top: 5%;
+    }
+
+
+    /*↓↓↓ CSS DO CARROSSEL ↓↓↓ */
+    /* slider do restante das imagens do carrossel */
+    .slider1 {
+        margin-left: 10%;
+        padding: px 100px 0px 100px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+
+    }
+
+    /* slider da primeira imagem do carrossel; "overflow: hidden;" épras imagens restantes que não apareceram ainda não fiquem vazando pros lados do carrossel */
+    .slider {
+        margin-left: 15%;
+        width: 800px;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    /* slides do carrossel e radios do carrossel  */
+    .slides {
+        width: 400%;
+        height: 400px;
+        display: flex;
+    }
+
+    /* radios foram escondidos; */
+    .slides input {
+        display: none;
+    }
+
+    /* imagens com o tamanho certo do bloco do carrossel */
+    .slide {
+        width: 25%;
+        position: relative;
+        transition: 2s;
+    }
+
+    /* imagens dos slides */
+    .slide img {
+        width: 800px;
+    }
+
+    /* navegação manual dos slides */
+    .manual-navigation {
+        position: absolute;
+        width: 800px;
+        margin-top: 360px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* botões da navegação manual */
+    .manual-btn {
+        border: 2px solid rgb(255, 255, 255);
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    /* espaçamento nos botões manuais >MENOS< o último botão */
+    .manual-btn:not(:last-child) {
+        margin-right: 40px;
+
+    }
+
+    /* quando passar o mouse por cima dos botões do carrossel, ele vai ficar branco */
+    .manual-btn:hover {
+        background-color: rgb(255, 255, 255);
+    }
+
+    /* imagem 1 em exibição com o botão ativo */
+    #radio1:checked~.first {
+        margin-left: 0;
+    }
+
+    /* imagem 2 em exibição com o botão ativo */
+    #radio2:checked~.first {
+        margin-left: -25%;
+    }
+
+    /* imagem 3 em exibição com o botão ativo */
+    #radio3:checked~.first {
+        margin-left: -50%;
+    }
+
+    /* imagem 4 em exibição com o botão ativo */
+    #radio4:checked~.first {
+        margin-left: -75%;
+    }
+
+    /* navegação automatica dos botões na div; trasition é pelo botão ficar branco */
+    .navigation-auto div {
+        border: 2px solid blanchedalmond;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+
+    }
+
+    /* posição dos botões de navegação automaticos  */
+    .navigation-auto {
+        position: absolute;
+        width: 800px;
+        margin-top: 360px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* espaçamento entre os botões automaticos */
+    .navigation-auto div:not(:last-child) {
+        margin-right: 40px;
+
+    }
+
+    /* quando clicar ou o botão 1 passar automaticamente, o fundo dele ficará branco. */
+    #radio1:checked~.navigation-auto .auto-btn1 {
+        background-color: whitesmoke;
+    }
+
+    /* quando clicar ou o botão 2 passar automaticamente, o fundo dele ficará branco. */
+    #radio2:checked~.navigation-auto .auto-btn2 {
+        background-color: whitesmoke;
+    }
+
+    /* quando clicar ou o botão 3 passar automaticamente, o fundo dele ficará branco. */
+    #radio3:checked~.navigation-auto .auto-btn3 {
+        background-color: whitesmoke;
+    }
+
+    /* quando clicar ou o botão 4 passar automaticamente, o fundo dele ficará branco. */
+    #radio4:checked~.navigation-auto .auto-btn4 {
+        background-color: whitesmoke;
+    }
+
+    /* ♥☻ FIM DO CSS DO CARROSSEL ☻♥ */
+
+    /* degrade em que a primeira cor vem da direita pra esquerda; NA PAGINA SOBRENOS.HTML*/
+    .degrade-right {
+        text-align: right;
+        margin-right: 0%;
+        margin-top: 5%;
+        background-image: linear-gradient(to left, #bc2a25c3, transparent);
+        padding: 60px;
+
+    }
+
+    /* degrade em que a primeira cor vem da esquerda pra direita; NA PÁGINA SOBRENOS.HTML*/
+    .degrade-left {
+        background-image: linear-gradient(to right, #539749c1, transparent);
+        padding: 50px;
+        margin-right: 0%;
+    }
+
+    /* degrade em que a primeira cor vem da direita pra esquerda; NA PAGINA COLABORADORES.HTML*/
+    .degrade-right1 {
+        text-align: right;
+        margin-right: 0%;
+        margin-top: 5%;
+        background-image: linear-gradient(to left, #ffaa00c3, transparent);
+        padding: 50px;
+
+    }
+
+    /* degrade em que a primeira cor vem da esquerda pra direita; NA PAGINA COLABORADORES.HTML*/
+    .degrade-right2 {
+        text-align: right;
+        margin-right: 0%;
+        margin-top: 5%;
+        background-image: linear-gradient(to left, #f5c25cb3, transparent);
+        padding: 50px;
+
+    }
+
+    /* container dos 3 blocos na página home.html */
+    .container {
+        display: grid;
+        grid-column-gap: 10px;
+        grid-template-columns: 200px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 5%;
+    }
+
+    /* caixa 1 */
+    .item1 {
+        background-image: linear-gradient(to bottom, #66A276, transparent);
+        border-radius: 20px;
+        padding: 20px;
+
+    }
+
+    /* caixa 2 */
+    .item2 {
+        background-image: linear-gradient(to bottom, #6ca899, transparent);
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    /* caixa 3 */
+    .item3 {
+        background-image: linear-gradient(to bottom, #276772, transparent);
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    /* texto/titulo na cor branca */
+    #white {
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    /* container das caixas da pagina COLABORADORES.HTML */
+    .cont {
+        grid-template-columns: 200px;
+        margin-bottom: 5%;
+    }
+
+    /* CAIXA 4 */
+    .item4 {
+        background-image: linear-gradient(to left, #e5a016b3, transparent);
+        padding: 30px;
+    }
+
+    /* caixa 5 */
+    .item5 {
+        background-image: linear-gradient(to right, #e5a016b3, transparent);
+        padding: 25px;
+
+    }
+
+    /* caixa 6 */
+    .item6 {
+        background-image: linear-gradient(to left, #e5a016b3, transparent);
+        padding: 25px;
+
+    }
+
+    /* titulo vermelho dos colaboradores e alinhamento; */
+    .red {
+        color: #a50000;
+        text-align: center;
+        margin-top: -22%;
+        margin-left: 12%;
+        padding-top: 2%;
+    }
+
+    .red2{
+        color: #a50000;
+        text-align: center;
+        margin-top: -23%;
+        margin-left: 10%;
+    }
+    .red3{
+        color: #a50000;
+        text-align: center;
+        margin-top: -19%;
+        margin-left: 10%;
+    }
+
+    /* jogada pro ladinho mais de direita */
+    .ladin {
+        margin-left: 15%;
+        margin-bottom: 5%;
+        padding-bottom: -12%;
+    }
+
+    .ladin3{
+    
+        margin-left: 10%;
+        margin-bottom: 5%;
+         
+    }
+
+    /* jogada pro ladinho mais de esquerda */
+    .ladin2 {
+        margin-right: 1%;
+        margin-bottom: 5%;
+    }
+    #plantinha{
+        margin-left: 46%;
+        width:100px; 
+        height:100px;
+    }
+    #sopinha{
+        margin-left: 44%;
+    }
+    #maosdadas{
+        margin-left: 43%;
+    }
+    #marcia{
+        margin-left: 5%;
+        margin-top: -2%; 
+        margin-bottom: 1%;
+    }
+    #roberto{
+        margin-left: 75%;
+        margin-top: -3%; 
+        margin-bottom: 3%;
+        padding-bottom: 3%;
+    }
+    #carlos{
+        margin-left: 5%;
+        margin-top: -2%; 
+        margin-bottom: 3%;
+    }
+    #sacola{
+       position: absolute;
+       width: 200px;
+       /*margin-left: 8%;*/
+       margin-top: 15%;
+    }
+    #tomates{
+        position: absolute;
+        margin-top: -13%;
+        margin-left: 5%;
+        width: 200px;
+    }
+    #maos{
+        position: absolute;
+        margin-top: -10%;
+        margin-left: 50%;
+        width: 300px;
+    }
+    #doisamigos{
+        position: absolute;
+        margin-top: -16%;
+        margin-left: 5%;
+        width: 200px;
+    }
+    .p{
+        font-size: 30px;
+        
+    }
+    .p2{
+        font-size: 30px;
+        margin-left: 30%;
+        
+    }
+    .p3{
+        font-size: 30px;
+        margin-right: 30%;
+       
+    }
+    .caixa1 {
+        background-image: linear-gradient(to bottom, rgba(193, 53, 132, 0.678), rgba(255, 45, 83, 0.664), rgba(255, 187, 0, 0.63));
+        border-radius: 30px;
+        padding: 30px;
+        margin-left:0%;
+    }
+
+    /* caixa 2 */
+    .caixa2 {
+        background-image: linear-gradient(to bottom, #0051ffaf, #abc0f050);
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    /* caixa 3 */
+    .caixa3 {
+        background-image: linear-gradient(to bottom, #0fb40a, #a9ec8a63);
+        border-radius: 30px;
+        padding: 20px;
+    }
+    .container2{
+        display: grid;
+        grid-template-columns: 200px;
+        display: flex;
+        /* justify-content: space-evenly; */
+        gap: 70px;
+        margin-bottom: 5%;
+        margin-left: 11%;
+    }
+   
+    /*Formulário de contato*/
+    form input{
+        background-color: whitesmoke;
+        margin-top: 5%;
+        padding: 30px 190px 10px 30px;
+        width: 80vw;
+        border: 2px solid whitesmoke;
+        border-radius: 30px;
+        text-align: left;
+        margin-left: 2%;
+    } 
+    label{
+        position: absolute;
+        margin-left: 3%;
+        font-weight: bold;
+        font-size: 19px;
+        margin-top: 3%;
+    
+    }
+    textarea{
+        padding: 30px 350px 30px 30px;
+        background-color: whitesmoke;
+        border: 3px solid whitesmoke;
+        border-radius: 30px;
+        margin-top: 5%;
+        margin-left: 2%;
+        width: 70vw;
+    }
+    #primeironome{
+        margin-top: -1%;
+    }
+    #prinome{
+        margin-top: 1%;
+        width: 81.7%;
+        height: 50%;
+    }
+    #ultimosobrenome{
+        margin-top: 2%;
+    }
+    #ultsobrenome{
+        width: 81.9%;
+        margin-top: 4%;
+    }
+    #assunto{
+        margin-top: 2%;
+    }
+    #ass{
+        width: 71.5%;
+        margin-top: 4%;
+    }
+    .placeholder{
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 2%;
+    }
+    #botãocancel{
+        border: solid 0px #a50000;
+        border-radius: 30px;
+        color: whitesmoke;
+        background-color: #a50000;
+        font-size: 20px;
+        position: absolute;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 2px;
+        transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+        margin-bottom: 3%;
+        margin-left: 27%;
+        margin-top: 1%;
+    }
+    #botãoenviar{
+        border: solid 0px #a50000;
+        border-radius: 30px;
+        color: whitesmoke;
+        background-color: #a50000;
+        font-size: 20px;
+        position: absolute;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 2px;
+        transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+        margin-bottom: 3%;
+        margin-left: 40%;
+        margin-top: 1%;
+    }
+
+
+}
+
+/* celular */
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+    /* elemento body */
+body{
+    background-color: #e8cf9c;
+    margin: 0;
+    padding: 0;
+}
+/* nav onde tem as seçoes do site */
+nav{
+    background-color: #a42525e6 ;
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    display: none;
+}
+.nav{
+    background-color: #a42525e6 ;
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+/* cada seção do site */
+li{
+    display: inline;
+    padding: 17px;
+    text-align: center;
+    font-size: 13px;
+
+}
+/* a lista de seções */
+ul{
+   margin-left: -25px;
+}
+/* a divisória que temos entre as seções - "|" */
+span{
+    color: #f5e2bf;
+}
+/* ancoras/textos das seções do site */
+a{
+    color: #f5e2bf;
+    text-decoration: none;
+}
+/* ancoras/textos das seções do site quando foram visitadas*/
+a:visited{
+    color: #f5e2bf;
+    text-decoration: none;
+}
+/* ancoras/textos das seções do site quando vc permanece com o mouse clicado nela */
+a:active{
+    color: #514735;
+    text-decoration: none;
+}
+/* ancoras/textos das seções do site quando vc permanece com o mouse clicado nela */
+li:hover{
+    font-weight: bold;
+    color: #514735;
+}
+/* ancoras/textos das seções do site quando vc permanece com o mouse acima dela */
+ul li:hover{
+    border: 2px solid #5d0101;
+    background-color: #a50000;
+    border-radius: 15px;
+}
+/* do login e cadastre-se das páginas iniciais */
+#botao-login-e-cadastro{
+    float: right;
+    padding: 60px;
+    display: none;
+}
+/* classe que faz o botão ter a animação. o transition é o tempo de transiçao de cada coisa, como a cor da letra, fundo e o tempo que leva pra essa transição acontecer. */
+.botao{
+   
+    border: solid 2px #000000;
+    border-radius: 20px;
+    color: black;
+    background-color: #e3daa7;
+    font-size: 30px;
+    padding-right: 10px;
+    
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+/* classe pra quando estivermos com o mouse acima do botão. nesse transform, o scale representa o tamanho que ele vai aumentar quando ativo. */
+.botao:hover{
+    background-color: #aa0000bd;
+    color: #f5e2bf;
+    transform: scale(1.1);
+    border: 0px solid black
+}
+/* botão do login e cadastre-se das páginas iniciais */
+#botao-login-e-cadastro-mobile{
+    float: right;
+    padding: 30px;
+}
+/* classe que faz o botão ter a animação. o transition é o tempo de transiçao de cada coisa, como a cor da letra, fundo e o tempo que leva pra essa transição acontecer. */
+.botao1{
+   
+    border: solid 2px #000000;
+    border-radius: 20px;
+    color: black;
+    background-color: #e3daa7;
+    font-size: 25px;
+    padding-right: 10px;
+    
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+/* classe pra quando estivermos com o mouse acima do botão. nesse transform, o scale representa o tamanho que ele vai aumentar quando ativo. */
+.botao1:hover{
+    background-color: #aa0000bd;
+    color: #f5e2bf;
+    transform: scale(1.1);
+    border: 0px solid black
+}
+/* faixa do ínicio de cada seção com o título dela. ex: na seção colaboradores, abaixo tem uma faixa com a palavra "colaboradores". */
+#header-de-cada-secao{
+    background-color: #a42525e6;
+    padding: 22px;
+    border-radius: 10px;
+    border: 4px hidden #CA3838;
+    
+    color: #ffffff;
+    
+}
+/* texto das faixas de cada seção */
+#texto-da-header{
+    
+    color: whitesmoke;
+    margin-left: 50px;
+    font-size: 22px;
+}
+/* altura e padding da header */
+header{
+    height: 40px;
+    padding-left: 20px;
+}
+/* tamanho e alinhamento de qualquer "p" sem um id ou classe */
+p{
+    font-size: 27px;
+    text-align: center;
+
+}
+/* faixa de "bem-vindo" da home */
+#bem-vindo-da-home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #6B392A;
+    background-color: #f5e2bf;
+    border: 0px solid #5d0101;
+    padding: 10px;
+    
+}
+/* logo no topo da página, á esquerda */
+#logo-na-esquerda{
+    margin: 0%;
+    justify-content: left;
+    display: none;
+}
+/* logo do mobile */
+#logo-mobile{
+    margin: 0%;
+    justify-content: left;
+    margin-bottom: -5%;
+}
+
+/* coração que aparece nas faixas das seções */
+#coracao{
+    position: absolute;
+    width: 40px;
+}
+/* classe do rodapé */
+.rod{
+    background-color: #f6c973;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    display: none;
+}
+/* titulo vermelho em alguns lugares do site */
+#titulo-vermelho{
+    text-align: center;
+    color: #5d0101;
+}
+/* ancora da cor branca, localizada bos blocos da home.html */
+#ancora-branca{
+    color: whitesmoke;
+}
+/* ancora da cor vermelha, localizada bos blocos da home.html */
+#ancora-vermelha{
+    color: #a50000;
+}
+/* texto do rodapé com o instagram; @colheita.solidaria */
+#texto-rod-insta{
+    color: #000000;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+/* texto no rodapé com o email; colheitasolidariafatec@gmail.com */
+#texto-rod-email{
+    color: #000000;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+/* texto no rodapé com o whatsapp; (16) 92359-9851 */
+#texto-rod-whats{
+    color: #000000;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 3%;
+}
+/* imagem do rodapé; ícones das redes sociais; */
+#imagem-rod{
+    padding-top: 0.5%;
+}
+/* id colocado em alguns textos pra alinhar ao centro; dois id's em "ajudar.html" */
+#center{
+    text-align: center;
+}
+/* classe pra alinhar o texto pra esquerda; maioria encontrado na home e sobre nós */
+.left{
+    text-align: left; 
+}
+/* classe pra alinhar o texto pra esquerda; maioria encontrado na home e sobre nós */
+.right{
+    text-align: right;
+    margin-right: 8%;
+    margin-top: 5%;
+}
+
+
+/*↓↓↓ CSS DO CARROSSEL ↓↓↓ */
+/* slider do restante das imagens do carrossel */
+.slider1{
+    margin-left: 10%;
+    padding: px 100px 0px 100px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+/* slider da primeira imagem do carrossel; "overflow: hidden;" épras imagens restantes que não apareceram ainda não fiquem vazando pros lados do carrossel */
+.slider{
+    margin-left: 23%;
+    width: 800px;  
+    height: 400px;
+    overflow: hidden;
+}
+/* slides do carrossel e radios do carrossel  */
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+/* radios foram escondidos; */
+.slides input{
+    display: none;
+}
+/* imagens com o tamanho certo do bloco do carrossel */
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+/* imagens dos slides */
+.slide img{
+    width: 800px;
+}
+/* navegação manual dos slides */
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+/* botões da navegação manual */
+.manual-btn{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+/* espaçamento nos botões manuais >MENOS< o último botão */
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+
+}
+/* quando passar o mouse por cima dos botões do carrossel, ele vai ficar branco */
+.manual-btn:hover{
+    background-color: rgb(255, 255, 255);
+}
+/* imagem 1 em exibição com o botão ativo */
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+/* imagem 2 em exibição com o botão ativo */
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+/* imagem 3 em exibição com o botão ativo */
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+/* imagem 4 em exibição com o botão ativo */
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+/* navegação automatica dos botões na div; trasition é pelo botão ficar branco */
+.navigation-auto div{
+    border: 2px solid blanchedalmond;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+/* posição dos botões de navegação automaticos  */
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+/* espaçamento entre os botões automaticos */
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+
+}
+/* quando clicar ou o botão 1 passar automaticamente, o fundo dele ficará branco. */
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: whitesmoke;
+}
+/* quando clicar ou o botão 2 passar automaticamente, o fundo dele ficará branco. */
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: whitesmoke;
+}
+/* quando clicar ou o botão 3 passar automaticamente, o fundo dele ficará branco. */
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: whitesmoke;
+}
+/* quando clicar ou o botão 4 passar automaticamente, o fundo dele ficará branco. */
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: whitesmoke;
+}
+
+/* ♥☻ FIM DO CSS DO CARROSSEL ☻♥ */
+
+/* degrade em que a primeira cor vem da direita pra esquerda; NA PAGINA SOBRENOS.HTML*/
+.degrade-right{
+    text-align: right;
+    margin-right: 0%;
+    margin-top: 5%;
+    background-image: linear-gradient(to left, #bc2a25c3, transparent);
+    padding: 10px 100px 10px 0px;
+
+}
+/* degrade em que a primeira cor vem da esquerda pra direita; NA PÁGINA SOBRENOS.HTML*/
+.degrade-left{
+    background-image: linear-gradient(to right, #539749c1, transparent);
+    padding: 10px 0px 10px 100px;
+    margin-right: 0%;
+}
+/* degrade em que a primeira cor vem da direita pra esquerda; NA PAGINA COLABORADORES.HTML*/
+.degrade-right1{
+    text-align: right;
+    margin-right: 0%;
+    margin-top: 5%;
+    background-image: linear-gradient(to left, #ffaa00c3, transparent);
+    padding: 10px 100px 10px 0px;
+
+}    
+/* degrade em que a primeira cor vem da esquerda pra direita; NA PAGINA COLABORADORES.HTML*/
+    .degrade-right2 {
+        text-align: right;
+        margin-right: 0%;
+        margin-top: 5%;
+        background-image: linear-gradient(to left, #f5c25cb3, transparent);
+        background-image: linear-gradient(to right, #f5c25cb3, transparent);
+        padding: 10px 100px 10px 0px;
+    }    
+/* container dos 3 blocos na página home.html */
+.container{
+    display: grid;
+    grid-template-columns: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+/* caixa 1 */
+.item1{
+    background-image: linear-gradient(to bottom, #66A276, transparent);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+/* caixa 2 */
+.item2{
+    background-image: linear-gradient(to bottom,#6ca899 , transparent);
+    border-radius: 20px;
+    padding: 20px;
+}
+/* caixa 3 */
+.item3{
+    background-image: linear-gradient(to bottom, #276772, transparent);
+    border-radius: 20px;
+    padding: 20px;
+}
+/* texto/titulo na cor branca */
+#white{
+    color: whitesmoke;
+    text-align: center;
+}
+/* container das caixas da pagina COLABORADORES.HTML */
+.cont{
+    grid-template-columns: 200px;
+    margin-bottom: 5%;
+}
+/* CAIXA 4 */
+.item4{
+    background-image: linear-gradient(to left, #e5a016b3 , transparent);
+    padding: 30px;
+}
+/* caixa 5 */
+.item5{
+    background-image: linear-gradient(to right, #e5a016b3 , transparent);
+    padding: 25px;
+    
+}
+/* caixa 6 */
+.item6{
+    background-image: linear-gradient(to left, #e5a016b3 , transparent);
+    padding: 25px;
+    
+}
+/* titulo vermelho dos colaboradores e alinhamento; */
+.red{
+    color: #a50000;
+    text-align: center;
+    margin-top: -20%;
+    margin-left: 10%;
+}
+/* jogada pro ladinho mais de direita */
+.ladin{
+    margin-left: 15%;
+}
+/* jogada pro ladinho mais de esquerda */
+.ladin2{
+    margin-right: 1%;
+}
+#plantinha{
+    margin-left: 38%;
+    width:100px; 
+    height:100px;
+}
+#sopinha{
+    margin-left: 32%;
+}
+#maosdadas{
+    margin-left: 30%;
+}
+#planta2{
+    display: none;
+}
+#marcia{
+    margin-left: 25%;
+    margin-top: -10%; 
+    margin-bottom: 8%;
+}
+#roberto{
+    margin-left: 25%;
+    margin-top: -3%; 
+    margin-bottom: 8%;
+}
+#carlos{
+    margin-left: 25%;
+    margin-top: -3%; 
+    margin-bottom: 8%;
+}
+.p{
+    font-size: 20px;
+    margin-left: 30%
+}
+.p2{
+    font-size: 30px;
+    margin-left: 30%;
+    margin-right: -5%;
+}
+.p3{
+    font-size: 30px;
+    margin-right: 30%;
+    margin-left: -8%;
+}
+#sacola{
+    position: absolute;
+    width: 200px;
+    margin-top: -32%;
+}
+#tomates{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 5%;
+    width: 140px;
+}
+#maos{
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 65%;
+    width: 170px;
+}
+#doisamigos{
+    position: absolute;
+    margin-top: -36%;
+    margin-left: 5%;
+    width: 140px;
+}
+
+}
+
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    /* elemento body */
+body{
+    background-color: #e8cf9c;
+    margin: 0;
+    padding: 0;
+}
+/* nav onde tem as seçoes do site */
+nav{
+    background-color: #a42525e6 ;
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+/* cada seção do site */
+li{
+    display: inline;
+    padding: 17px;
+    text-align: center;
+    font-size: 25px;
+
+}
+/* a lista de seções */
+ul{
+    margin-left: 15px;
+}
+/* a divisória que temos entre as seções - "|" */
+span{
+    color: #f5e2bf;
+}
+/* ancoras/textos das seções do site */
+a{
+    color: #f5e2bf;
+    text-decoration: none;
+}
+/* ancoras/textos das seções do site quando foram visitadas*/
+a:visited{
+    color: #f5e2bf;
+    text-decoration: none;
+}
+/* ancoras/textos das seções do site quando vc permanece com o mouse clicado nela */
+a:active{
+    color: #514735;
+    text-decoration: none;
+}
+/* ancoras/textos das seções do site quando vc permanece com o mouse clicado nela */
+li:hover{
+    font-weight: bold;
+    color: #514735;
+}
+/* ancoras/textos das seções do site quando vc permanece com o mouse acima dela */
+ul li:hover{
+    border: 2px solid #5d0101;
+    background-color: #a50000;
+    border-radius: 15px;
+}
+/* botão do login e cadastre-se das páginas iniciais */
+#botao-login-e-cadastro{
+    float: right;
+    padding: 60px;
+}
+/* classe que faz o botão ter a animação. o transition é o tempo de transiçao de cada coisa, como a cor da letra, fundo e o tempo que leva pra essa transição acontecer. */
+.botao{
+    border: solid 2px #000000;
+    border-radius: 20px;
+    color: black;
+    background-color: #e3daa7;
+    font-size: 30px;
+    padding-right: 10px;
+    margin-right: 20px;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+/* classe pra quando estivermos com o mouse acima do botão. nesse transform, o scale representa o tamanho que ele vai aumentar quando ativo. */
+.botao:hover{
+    background-color: #aa0000bd;
+    color: #f5e2bf;
+    transform: scale(1.1);
+    border: 0px solid black
+}
+/* faixa do ínicio de cada seção com o título dela. ex: na seção colaboradores, abaixo tem uma faixa com a palavra "colaboradores". */
+#header-de-cada-secao{
+    background-color: #a42525e6;
+    padding: 20px;
+    border-radius: 10px;
+    border: 4px hidden #CA3838;
+    font-size: 40px;
+    color: #ffffff;
+    
+}
+/* texto das faixas de cada seção */
+#texto-da-header{
+    padding-left: 65px;
+    padding-bottom: 10px;
+    
+}
+/* altura e padding da header */
+header{
+    height: 40px;
+    padding-left: 20px;
+}
+/* tamanho e alinhamento de qualquer "p" sem um id ou classe */
+p{
+    font-size: 27px;
+    text-align: center;
+
+}
+/* faixa de "bem-vindo" da home */
+#bem-vindo-da-home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #6B392A;
+    background-color: #f5e2bf;
+    border: 0px solid #5d0101;
+    padding: 10px;
+    
+}
+/* logo no topo da página, á esquerda */
+#logo-na-esquerda{
+    margin: 0%;
+    justify-content: left;
+}
+/* coração que aparece nas faixas das seções */
+#coracao{
+    position: absolute;
+    padding-left: 50;
+}
+/* classe do rodapé */
+.rod{
+    background-color: #f6c973;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+}
+/* titulo vermelho em alguns lugares do site */
+#titulo-vermelho{
+    text-align: center;
+    color: #5d0101;
+}
+/* ancora da cor branca, localizada bos blocos da home.html */
+#ancora-branca{
+    color: whitesmoke;
+}
+/* ancora da cor vermelha, localizada bos blocos da home.html */
+#ancora-vermelha{
+    color: #a50000;
+}
+/* texto do rodapé com o instagram; @colheita.solidaria */
+#texto-rod-insta{
+    color: #000000;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+/* texto no rodapé com o email; colheitasolidariafatec@gmail.com */
+#texto-rod-email{
+    color: #000000;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+/* texto no rodapé com o whatsapp; (16) 92359-9851 */
+#texto-rod-whats{
+    color: #000000;
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 3%;
+}
+/* imagem do rodapé; ícones das redes sociais; */
+#imagem-rod{
+    padding-top: 0.5%;
+}
+/* id colocado em alguns textos pra alinhar ao centro; dois id's em "ajudar.html" */
+#center{
+    text-align: center;
+}
+/* classe pra alinhar o texto pra esquerda; maioria encontrado na home e sobre nós */
+.left{
+    text-align: left; 
+}
+/* classe pra alinhar o texto pra esquerda; maioria encontrado na home e sobre nós */
+.right{
+    text-align: right;
+    margin-right: 8%;
+    margin-top: 5%;
+}
+
+
+/*↓↓↓ CSS DO CARROSSEL ↓↓↓ */
+/* slider do restante das imagens do carrossel */
+.slider1{
+    margin-left: 10%;
+    padding: px 100px 0px 100px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+/* slider da primeira imagem do carrossel; "overflow: hidden;" épras imagens restantes que não apareceram ainda não fiquem vazando pros lados do carrossel */
+.slider{
+    margin-left: 20%;
+    width: 800px;  
+    height: 400px;
+    overflow: hidden;
+}
+/* slides do carrossel e radios do carrossel  */
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+/* radios foram escondidos; */
+.slides input{
+    display: none;
+}
+/* imagens com o tamanho certo do bloco do carrossel */
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+/* imagens dos slides */
+.slide img{
+    width: 800px;
+}
+/* navegação manual dos slides */
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+/* botões da navegação manual */
+.manual-btn{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+/* espaçamento nos botões manuais >MENOS< o último botão */
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+
+}
+/* quando passar o mouse por cima dos botões do carrossel, ele vai ficar branco */
+.manual-btn:hover{
+    background-color: rgb(255, 255, 255);
+}
+/* imagem 1 em exibição com o botão ativo */
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+/* imagem 2 em exibição com o botão ativo */
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+/* imagem 3 em exibição com o botão ativo */
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+/* imagem 4 em exibição com o botão ativo */
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+/* navegação automatica dos botões na div; trasition é pelo botão ficar branco */
+.navigation-auto div{
+    border: 2px solid blanchedalmond;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+/* posição dos botões de navegação automaticos  */
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+/* espaçamento entre os botões automaticos */
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+
+}
+/* quando clicar ou o botão 1 passar automaticamente, o fundo dele ficará branco. */
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: whitesmoke;
+}
+/* quando clicar ou o botão 2 passar automaticamente, o fundo dele ficará branco. */
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: whitesmoke;
+}
+/* quando clicar ou o botão 3 passar automaticamente, o fundo dele ficará branco. */
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: whitesmoke;
+}
+/* quando clicar ou o botão 4 passar automaticamente, o fundo dele ficará branco. */
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: whitesmoke;
+}
+
+/* ♥☻ FIM DO CSS DO CARROSSEL ☻♥ */
+
+/* degrade em que a primeira cor vem da direita pra esquerda; NA PAGINA SOBRENOS.HTML*/
+.degrade-right{
+    text-align: right;
+    margin-right: 0%;
+    margin-top: 5%;
+    background-image: linear-gradient(to left, #bc2a25c3, transparent);
+    padding: 10px 100px 10px 0px;
+
+}
+/* degrade em que a primeira cor vem da esquerda pra direita; NA PÁGINA SOBRENOS.HTML*/
+.degrade-left{
+    background-image: linear-gradient(to right, #539749c1, transparent);
+    padding: 10px 0px 10px 100px;
+    margin-right: 0%;
+}
+/* degrade em que a primeira cor vem da direita pra esquerda; NA PAGINA COLABORADORES.HTML*/
+.degrade-right1{
+    text-align: right;
+    margin-right: 0%;
+    margin-top: 5%;
+    background-image: linear-gradient(to left, #ffaa00c3, transparent);
+    padding: 10px 100px 10px 0px;
+
+}    
+/* degrade em que a primeira cor vem da esquerda pra direita; NA PAGINA COLABORADORES.HTML*/
+.degrade-right2{
+    text-align: right;
+    margin-right: 0%;
+    margin-top: 5%;
+    background-image: linear-gradient(to left, #f5c25cb3, transparent);
+    padding: 10px 100px 10px 0px;
+
+}    
+/* container dos 3 blocos na página home.html */
+.container{
+    display: grid;
+    grid-template-columns: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+/* caixa 1 */
+.item1{
+    background-image: linear-gradient(to bottom, #66A276, transparent);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+/* caixa 2 */
+.item2{
+    background-image: linear-gradient(to bottom,#6ca899 , transparent);
+    border-radius: 20px;
+    padding: 20px;
+}
+/* caixa 3 */
+.item3{
+    background-image: linear-gradient(to bottom, #276772, transparent);
+    border-radius: 20px;
+    padding: 20px;
+}
+/* texto/titulo na cor branca */
+#white{
+    color: whitesmoke;
+    text-align: center;
+}
+/* container das caixas da pagina COLABORADORES.HTML */
+.cont{
+    grid-template-columns: 200px;
+    margin-bottom: 5%;
+}
+/* CAIXA 4 */
+.item4{
+    background-image: linear-gradient(to left, #e5a016b3 , transparent);
+    padding: 30px;
+}
+/* caixa 5 */
+.item5{
+    background-image: linear-gradient(to right, #e5a016b3 , transparent);
+    padding: 25px;
+    
+}
+/* caixa 6 */
+.item6{
+    background-image: linear-gradient(to left, #e5a016b3 , transparent);
+    padding: 25px;
+    
+}
+/* titulo vermelho dos colaboradores e alinhamento; */
+.red{
+    color: #a50000;
+    text-align: center;
+    margin-top: -20%;
+    margin-left: 10%;
+}
+/* jogada pro ladinho mais de direita */
+.ladin{
+    margin-left: 15%;
+}
+/* jogada pro ladinho mais de esquerda */
+.ladin2{
+    margin-right: 1%;
+}
+
+}
